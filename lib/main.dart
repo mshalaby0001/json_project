@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     //serialize 
     // conveting object to map
-    Map<String, dynamic> jsonMap = user.tojson();
+    Map<String, dynamic> jsonMap = user.toJson();
     // converting map to json
     String json = jsonEncode(jsonMap);
     return Scaffold(
